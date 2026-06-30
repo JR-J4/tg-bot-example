@@ -1,5 +1,6 @@
 import type { ComponentType } from 'react';
-import { Page } from '@/components/Page.tsx';
+
+import { EchoPage } from '@/pages/EchoPage.tsx';
 
 interface Route {
   path: string;
@@ -7,10 +8,6 @@ interface Route {
   title?: string;
 }
 
-function PlaceholderPage() {
-  return <Page back={false}>tg-app-live: skeleton OK</Page>;
-}
-
 export const routes: Route[] = [
-  { path: '/', Component: PlaceholderPage },
+  { path: '/', Component: EchoPage },
 ];

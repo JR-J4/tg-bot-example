@@ -18,7 +18,7 @@ export function Page({ children, back = true }: PropsWithChildren<{
       });
     }
     backButton.hide();
-  }, [back]);
+  }, [back, navigate]);
 
   return <>{children}</>;
 }
