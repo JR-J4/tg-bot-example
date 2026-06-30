@@ -27,5 +27,5 @@ dist-ssr
 
 # Local reference clones (not part of this repo)
 /reference/
-# Local Claude settings (never commit credentials)
-.claude/settings.local*
+# Local Claude config (never commit; may contain credentials)
+.claude/
